@@ -1,0 +1,135 @@
+/* 通用样式 */
+
+.el-scrollbar__wrap {
+    overflow-x: hidden;
+}
+
+.image-slot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #F5F7FA;
+    color: #909399;
+    font-size: 24px;
+}
+
+.image-slot-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #F5F7FA;
+    color: #909399;
+    font-size: 24px;
+}
+
+a {
+    -webkit-tap-highlight-color: none;
+    -webkit-user-select: none;
+    -moz-user-focus: none;
+    -moz-user-select: none;
+    text-decoration: none;
+}
+
+
+/* .el-input__wrapper.is-focus {
+    box-shadow: none;
+}
+
+.el-input__wrapper:hover {
+    box-shadow: none;
+}
+
+.el-input__wrapper {
+    box-shadow: none;
+} */
+
+.el-input__inner:-moz-placeholder {
+    color: #676767;
+}
+
+.el-input__inner::-webkit-input-placeholder {
+    color: #676767;
+}
+
+.el-tabs__item.is-active {
+    color: #EC4141;
+}
+
+.el-tabs__item:hover {
+    color: #EC4141;
+}
+
+.el-tabs__active-bar {
+    background-color: #EC4141;
+}
+
+.el-input__wrapper.is-focus {
+    box-shadow: 0 0 0 1px #EC4141 inset;
+}
+
+.el-pagination .el-pager li:hover {
+    color: red;
+    /*hover时候的文字颜色*/
+}
+
+.el-pagination .btn-prev:hover,
+.el-pagination .btn-next:hover {
+    color: red !important;
+    /*hover时候的文字颜色*/
+}
+
+.el-pager .is-active {
+    color: white !important;
+    /*仅设置active时的文字颜色*/
+    background-color: red;
+    border-radius: 5px;
+}
+
+.el-pager .is-active:hover {
+    color: white !important;
+}
+
+.el-slider__runway {
+    background-color: #CDCDCD;
+    height: 3px;
+}
+
+.el-slider__bar {
+    background-color: #FF4E4E;
+    height: 3px;
+}
+
+.el-slider:hover .el-slider__runway {
+    height: 6px;
+}
+
+.el-slider.is-vertical .el-slider__bar {
+    width: 8px !important;
+}
+
+.el-slider:hover .el-slider__bar {
+    height: 6px;
+}
+
+.el-slider:hover .el-slider__button {
+    display: inline-block;
+}
+
+.el-slider__button {
+    border: none;
+    width: 10px;
+    height: 10px;
+    background-color: #EC4141;
+    display: none;
+}
+
+.loading {
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    /* color: #EC4141; */
+}
